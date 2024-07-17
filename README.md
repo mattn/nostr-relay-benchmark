@@ -4,7 +4,10 @@ Nostr 日本リレー内でのベンチマーク。
 
 ## ベンチマーク手法
 
-イベント投稿、ID指定のイベント検索、イベント削除。これを1セットとして5回の実行に掛かる秒数を計測。あくまで僕の自宅からの接続なので関東でやると変わる可能性あり。またリレーを動かしているサーバのスペックが大きく異なる可能性あり。
+イベント投稿、ID指定のイベント検索、イベント削除。これを1セットとして5回の実行に掛かる秒数を計測。
+
+あくまで僕の自宅からの接続なので関東でやると変わる可能性あり。またリレーを動かしているサーバのスペックが大きく異なる可能性あり。
+
 以下の手順で実行。
 
 ```
@@ -13,15 +16,15 @@ $ ./benchmark-all.sh
 
 ## 対象リレー
 
-wss://yabu.me (strfry)
-wss://nos.lol (strfry)
-wss://cagliostr.compile-error.net (cagliostr)
-wss://nostr.compile-error.net (nostr-relay)
-wss://relay-jp.nostr.wirednet.jp (nostream)
-wss://relay.nostr.band (独自)
-wss://nrelay-jp.c-stellar.net (strfry)
-wss://r.kojira.io (strfry)
-wss://relay-jp.shino3.net (strfry)
+* wss://yabu.me (strfry)
+* wss://nos.lol (strfry)
+* wss://cagliostr.compile-error.net (cagliostr)
+* wss://nostr.compile-error.net (nostr-relay)
+* wss://relay-jp.nostr.wirednet.jp (nostream)
+* wss://relay.nostr.band (独自)
+* wss://nrelay-jp.c-stellar.net (strfry)
+* wss://r.kojira.io (strfry)
+* wss://relay-jp.shino3.net (strfry)
 
 ## 結果
 
@@ -43,14 +46,13 @@ wss://relay-jp.shino3.net (strfry)
 
 結果を見る限り、日本で使うリレーとしては以下の順で速い。
 
-やぶみリレー
-きりのリレー
-mattn リレー(nostr-relay)
-mattn リレー(cagliostr)
-かすてらふぃリレー
-しのリレー
-こじらリレー
-
+* やぶみリレー
+* きりのリレー
+* mattn リレー(nostr-relay)
+* mattn リレー(cagliostr)
+* かすてらふぃリレー
+* しのリレー
+* こじらリレー
 
 ## License
 
