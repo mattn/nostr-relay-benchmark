@@ -37,7 +37,7 @@ wss://relay-jp.shino3.net (strfry)
 |wss://r.kojira.io                |18.49 |strfry      |
 |wss://relay-jp.shino3.net        |10.19 |strfry      |
 
-https://image.nostr.build/8fdcf08a378f66b86ed8826c2efd437912923b8e1ab30bb8b79c336753b564a3.png
+![](https://image.nostr.build/8fdcf08a378f66b86ed8826c2efd437912923b8e1ab30bb8b79c336753b564a3.png)
 
 ## 結論
 
